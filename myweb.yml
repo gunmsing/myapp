@@ -5,8 +5,8 @@
 
   vars:
     tomcat_folder: bin
-    tomcat_path: "/home/ec2-user/{{ tomcat_folder }}"
-    grep_string: "[/]home/ec2-user/{{ tomcat_folder }}"
+    tomcat_path: "/home/ec2-user/tomcat8/{{ tomcat_folder }}"
+    grep_string: "[/]home/ec2-user/tomcat8/{{ tomcat_folder }}"
 
   tasks:
     - name: Copying the war file to the destination
